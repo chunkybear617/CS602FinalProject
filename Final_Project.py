@@ -237,7 +237,7 @@ if page == "Home":
     st.write("""This interactive dashboard explores museum revenue, museum types, and geographic trends across the United States.
     Users can filter museums by state, revenue level, museum type, and museum name to discover patterns in museum performance and distribution.""")
     st.info("Select a state from the sidebar to begin exploring museum data.")
-    st.image(r"C:\Users\Claire Ewen\OneDrive - Bentley University\CS602\Museum.jfif", caption="Smithsonian Institution American Art Museum", use_container_width=True)
+    st.image("Museum.jfif", caption="Smithsonian Institution American Art Museum", use_container_width=True)
 
 elif page == "Dashboard":
     st.title("Dashboard")
