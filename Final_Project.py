@@ -12,7 +12,7 @@ import pydeck as pdk
 
 # read in data
 def read_data():
-    return pd.read_csv(r"C:\Users\Claire Ewen\OneDrive - Bentley University\CS602\museums.csv").set_index("Museum ID")
+    return pd.read_csv("museums.csv").set_index("Museum ID")
 
 
 # [ST4] Custom streamlit page configuration
